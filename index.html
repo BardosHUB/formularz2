@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	Proszę o wypełnienie formularza:<br>
+	<form action="https://formspree.io/bartlomiej.gardolinski@gmail.com" method="POST"><br> Imię:
+		<input type="text" name="firstname"><br> Nazwisko:
+		<input type="text" name="lastname"><br> Wybierz miasto:
+		<select name="select">
+			<option value="value1">Warszawa</option>
+			<option value="value2" selected>Karków</option>
+			<option value="value3">Wrocław</option></select><br> Wybierze płeć<br>
+		<input type="radio" name="gender" value="male" checked> Mężczyzna<br>
+		<input type="radio" name="gender" value="female"> Kobieta<br>
+		<input type="radio" name="gender" value="other"> Inne<br>
+		<label>
+		<input type="checkbox"> Zgoda na dane osobowe
+		</label><br> Treść wiadomości:<br><textarea maxlength="1000"></textarea><br> Podaj e-mail:
+		<input type="email" name="_replyto">
+		<input type="submit" value="Send">
+	</form>
+
+
+</body>
+
+</html>
