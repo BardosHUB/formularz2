@@ -4,3 +4,36 @@ body {
 	width: 600px;
 	padding: 20px;
 }
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form select,
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+	width: 300px;
+	background-color: #2b4a64;
+	color: #fff;
+	border: #2b4a64 1px solid;
+	height: 25px;
+}
+
+input:focus {
+	color: red;
+}
+
+form input [type="submit"] {
+	background-color: green;
+	border: #2b4a64 1px solid;
+}
+
+
+/*
+form :empty {
+	background-color: yellow;
+}
+*/
